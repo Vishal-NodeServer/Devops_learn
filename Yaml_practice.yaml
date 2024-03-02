@@ -1,0 +1,195 @@
+# #List---> 
+
+# -Spiderman
+# -ironman
+# -Thor
+
+
+##block---->
+ 
+# Hero:
+#  -Groot
+#  -Spiderman
+#  -Thor
+
+#Flow type --->
+
+# Hero:[Thor,spiderman,Batman]
+
+
+#Used new line by using | tilde sign ----->
+
+# bio : |
+#    hey i am very happy 
+#    to share Love to Learn
+#    Cloud
+
+#Write in new line but treated as a same line using > -------->
+
+# Message >
+#       This will
+#       all be 
+#       in one single line
+
+
+#Data type in Yaml  ----->
+
+# #String ---
+
+# Name : Spider man
+# job : 'Cloud'
+# Location : "Guj"
+
+# #Number/Int/Float/Boolean
+
+# Number : 5473
+# Marks : 76.34
+# boolean_value : No  #n,N,false,False #True,Y,y
+
+
+#Specify The data Type  ------------->
+
+#int 
+
+# Zero : !!int 0
+# positiveNum : !!int 66
+# NegativeNum : !!int -323
+
+# #Float
+
+# Marks : !!float 59.5
+# infinit : !!float .inf
+
+#Boolean
+
+# boolean_value : !!bool True
+# boolean_valueee : !!bool false
+
+#String 
+
+# Message : !!str My name is Spiderman
+
+# #null
+
+# Surname : !!null Null
+
+# #Date & Time
+
+# Date : !!timestamp 2024-3-3 #year-month-date
+
+#Sequence Type DataType ---------------------------------------->
+
+#  Avengers : seq  
+#      -ironman
+#      -Spiderman
+#      -Thor
+
+# Cities : [Ahmdabad,Banswara]
+
+# Sparse seq : 
+#      -Hey
+#      -How
+#      - 
+#      -Null
+#      -sup
+
+#Nested Sequence 
+
+# - 
+#   -ironman
+#   -Thor
+#   -Spiderman
+# -
+#   -batman
+#   -Groot
+#   -CaptainAmerica  
+    
+
+## Map ---------------------------------->
+    #!!map
+   #nested mapping map within map
+
+# Name : Spiderman
+# role:
+#      age : 19
+#      job : Hero 
+
+#         #or 
+# Name : Spiderman
+# Role : {age : 19 , job : hero}
+
+#Pair ------------------> 
+        #key may have duplicate value
+
+# PairExample : !!pairs
+#      - job : Hero
+#      - job : Student
+      #This will be an array of hashtable
+
+
+#Set ---------------------------------->
+
+      #not know ? man  don't know the first   #spider man 
+
+# Names : !!set
+#     ? man      #spider man
+#     ? America  #captain America
+#     ? Suthar   #Vishal suthar
+
+
+
+#Dictionary ------------------------------------------->
+
+# !!omap 
+
+# People : !!omap
+#     - Spiderman:
+#            Name : peter parker
+#            age : 19
+#            height : 6.4 ft
+    
+#     - Thor :
+#            Name : Chris Hemsworth
+#            age : 38
+#            height : 7.1 ft
+
+
+# #Reusing Same Properties  #Anchors #Likes - --------------------------------->
+
+#         Likings &likes :          #likes is custom take any you want
+#               favHero  : Spiderman
+#               Deslike :  grapes
+
+#         person1 :
+#                Name : vishal suthar
+#                << : *likes
+
+#         person2 :
+#                Name : someone      
+#                << : *likes
+#                Deslike : Apple
+
+
+# ##Tools ----------------------------->
+
+#           1 Moonkle ------> editor
+#           2 K8lens.dev     --------->used to make automatic YAML document
+
+
+           # vishal suthar #
+                         
+      
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
