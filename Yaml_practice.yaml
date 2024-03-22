@@ -1,3 +1,18 @@
+#what is yaml 
+#--> yaml is stand for yet another markup language its is a markup language like jason and xml
+
+
+#why use yaml ?
+#yaml is used to configure file. It is help to give the instruction to the docker or kubernetes or 
+#other cloud platform like AWS , GC etc.... use to tell to the this server to use that or this and 
+#used minimum storage its is simple and human-readable 
+
+#   ->> used for comment out
+
+#                                             <---------Start-------->
+
+
+
 # #List---> 
 
 # -Spiderman
